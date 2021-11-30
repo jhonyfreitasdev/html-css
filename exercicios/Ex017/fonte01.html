@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family:  'Work Sans', Arial, Helvetica, sans-serif;  
+            /*
+            Medidas absolutas
+            cm, mm, in(polegadas), px, pt(ponto), pc(paicas)
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            
+            /* weight é peso  
+            100 á 900
+            lighter normal bold bolder*/
+        }
+        h1{
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family:'Work Sans', sans-serif;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes </h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit nobis exercitationem consectetur alias. Debitis eaque quam repellat et unde optio, reprehenderit ut veritatis facere laudantium corporis saepe ipsa harum iste. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error saepe sapiente magnam fuga assumenda perspiciatis quos, dolores obcaecati in aliquid ipsum excepturi qui repellat culpa commodi? Iusto voluptas sint quas?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum, consequuntur dicta ab libero, vel, error consequatur tempora illo dolorum distinctio minus id? Pariatur, saepe corporis expedita quis blanditiis itaque.</p>
+    <h2>Subtítulo de exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, dicta assumenda aut dolorum molestiae laboriosam accusantium aperiam animi modi sapiente non beatae dolore minima in perferendis! Architecto atque hic odit.</p>
+</body>
+</html>

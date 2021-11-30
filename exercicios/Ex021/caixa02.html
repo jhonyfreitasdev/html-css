@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(133, 131, 131);
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.322);
+        } 
+
+        nav{
+            background-color: rgb(83, 82, 82);
+            padding: 3px;
+            box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.425);
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            text-align: left;
+            border-radius: 15px 0px;
+            box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.322);
+        }
+
+        article{
+            background-color: rgb(211, 211, 211);
+            padding: 5px;
+            margin: 1px;
+            border-radius: 3px;
+        }
+        article>p{
+            padding: 2px;
+        }
+        article > aside{
+            margin: 1px;
+            background-color: rgb(131, 131, 131);
+            padding: 1px;
+            font-size: 17px;
+        }
+        aside>p{
+            margin: 0px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 10px;
+            padding: 4px;
+            border-radius: 3px;
+        }
+        footer> p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body> <!-- 
+     <div>
+        <div id="Cabeçalho">
+            <h1></h1>
+        </div>
+
+        <div id="menu">
+        </div>
+    </div>
+
+    <div id="conteúdo">
+    </div>
+
+    <div id="rodapé">        
+    </div> 
+    Método antigo (HTML 4)-->
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noitícia sober o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis architecto distinctio natus voluptate obcaecati amet, aperiam molestiae ipsa corrupti reiciendis illum consectetur ad atque dolorem, sunt illo ullam qui non!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Jhony Silva</p>
+    </footer>
+</body>
+</html>
